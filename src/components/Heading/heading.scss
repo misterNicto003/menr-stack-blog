@@ -1,0 +1,14 @@
+@use "src/sass/abstracts/" as *;
+
+
+.heading {
+  color: #000;
+
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+
+  &.pink{
+    color: $pink_900;
+  }
+}
